@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/sections.css" />
+    <link rel="stylesheet" href="./css/particles.css" />
+    <link rel="stylesheet" href="./fontawesome/css/all.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:200,100,400"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <a href="#home">John Doe</a>
+      <a href="#" onclick="show_aside()" id="menu"><i class="fa fa-bars"></i></a>
+    </nav>
+
+    <!-- side nav -->
+    <aside>
+      <div class="top">
+        <img src="./imgs/pic.jpeg" alt="" />
+        <h2>John Doe</h2>
+        <p>Freelance datascientist</p>
+        <a href="#" class="btn">resume</a>
+      </div>
+      <div class="body">
+        <ul class="nav">
+          <li><a href="#home">Who Am I</a></li>
+          <li><a href="#about">What I Do</a></li>
+          <li><a href="#awards">My Awards</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#resume">My Resume</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+      <div class="footer">
+        <ul>
+          <li><a href="#">&copy; owidi 2021</a></li>
+          <li><a href="#">help</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- particles -->
+    <div id="particles-js"></div>
+
+    <!-- main page -->
+    <main class="main">
+      <section id="home">
+        <div class="header">
+          <h2>Who Am I ?</h2>
+        </div>
+        <div class="body">
+          <h4>John Doe</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+            blanditiis tenetur perferendis reiciendis libero? Officia nostrum t
+            a optio voluptatibus mollitia assumenda exercitationem at temporibus
+            sequi nihil ab provident explicabo, rerum non vero? Officiis,
+            ratione provident.
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+            unde.
+          </p>
+
+          <h4>Social Media</h4>
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+          <a href="#" class="btn">Reach out</a>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="header">
+          <h2>What I do</h2>
+        </div>
+        <div class="wrapper" id="runner">
+          <h1 class="runner">
+            I <br>
+            <span
+              class="txt-rotate"
+              data-period="1000"
+              data-rotate='[ "...","Program.", "Write.", "Transcribe.", "Do Maths.", "Others !" ]'
+            ></span>
+          </h1>
+        </div>
+        <div class="wrapper" id="intrests">
+          <h1>intrests</h1>
+          <div id="rand">
+            <div class="col">
+              <i class="icon fab fa-html5"></i>
+            <i class="icon fab fa-java"></i>
+            <i class="icon fab fa-python"></i>
+            <i class="icon fab fa-js"></i>
+            <i class="icon fab fa-css3"></i>
+            </div>
+            <div class="col">
+              <i class="icon fab fa-bootstrap"></i>
+            <i class="icon fab fa-react"></i>
+            <i class="icon fab fa-angular"></i>
+            <i class="icon fa fa-code"></i>
+            <i class="icon fab fa-android"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="awards">
+        <div class="header">
+          <h2>What I have Achieved</h2>
+        </div>
+        <div class="wrapper" id="achievements">
+          <img src="./imgs/achieves/angular-icon-1.svg" alt="" />
+          <img src="./imgs/achieves/bootstrap-5-1.svg" alt="" />
+          <img src="./imgs/achieves/django.svg" alt="" />
+          <img src="./imgs/achieves/html.svg" alt="" />
+          <img src="./imgs/achieves/material-ui.svg" alt="" />
+          <img src="./imgs/achieves/python-5.svg" alt="" />
+        </div>
+      </section>
+      <section id="experience">
+        <div class="header">
+          <h2>My work experience</h2>
+        </div>
+        <div class="wrapper"></div>
+      </section>
+      <section id="resume">
+        <div class="header">
+          <h2>Download my resume</h2>
+        </div>
+        <div class="wrapper">
+          <a href="./doc/resume.pdf" download>
+            <img src="./doc/doc.jpg" alt="My resume" />
+          </a>
+          <a href="./doc/resume.pdf" class="btn" download>Download</a>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="header">
+          <h2>Contact me</h2>
+        </div>
+        <div class="wrapper">
+          <div class="col1">
+            <div class="top">
+              <h4>Contact details</h4>
+              <ul>
+                <li>Email: <a href="#">jonnydoe@gmail.com</a></li>
+                <li>Phone: <a href="#">+254731939183</a></li>
+                <li>Address: <a href="#">Naks vegas Kenya</a></li>
+              </ul>
+            </div>
+            <div class="bottom">
+              <h4>Social Media</h4>
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col2">
+            <form action="http://127.0.0.1:5000" method="post" id="contact_form">
+              <input
+                type="text"
+                name="name"
+                id="fullname"
+                placeholder="John Doe"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="johniedoe@mydomain.com"
+                required
+              />
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Subject.. eg contract job, Feedback et cetera"
+                required
+              />
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Send me a message..."
+              ></textarea>
+              <button type="submit">Submit</button>
+              <!-- <a href="#" class="btn" type="submit">Submit</a> -->
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/form.js"></script>
+  <script src="./js/runner.js"></script>
+  <script src="./js/particles.js"></script>
+  <!-- <script src="./fontawesome/js/all.js"></script> -->
+</html>
